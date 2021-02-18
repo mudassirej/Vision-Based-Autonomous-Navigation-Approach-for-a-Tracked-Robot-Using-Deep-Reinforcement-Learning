@@ -1,6 +1,4 @@
 # Vision-Based-Autonomous-Navigation-Approach-for-a-Tracked-Robot-Using-Deep-Reinforcement-Learning
-#step 1
-roslaunch turtlebot_gazebo turtlebot_world.launch
-#step 2
-python main.py
+
+Tracked robots need to achieve safe autonomous steering in various changing environments. In this article, a novel end-to-end network architecture is proposed for tracked robots to learn collision-free autonomous navigation through deep reinforcement learning. Specifically, this research improved the learning time and exploratory nature of the robot by normalizing the input data and injecting parametric noise into the network parameters. Features were extracted from the four consecutive depth images by deep convolutional neural networks, which were used to derive the tracked robot. In addition, a comparison was made between three Q-variant models in terms of average reward, variance, and dispersion across episodes. Also, a detailed statistical analysis was performed to measure the reliability of all the models. The proposed model was superior in all the environments. It is worth noting that our proposed model, layer normalisation dueling double deep Q-network (LND3QN), could be directly transferred to a real robot without any fine-tuning after being trained in a simulation environment. The proposed model also demonstrated outstanding performance in several cluttered real-world environments considering both static and dynamic obstacles.
 
